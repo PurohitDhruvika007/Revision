@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    padding: 0px 25px;
+
+}
+
+.user {
+    position: relative;
+    top: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.movies {
+    padding: 10px 25px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.movie {
+    height: 210px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.movie-img {
+    height: 210px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.see {
+    display: flex;
+    padding: 0px 25px;
+    line-height: 50px;
+}
+
+button {
+    background-color: rgb(105, 105, 248);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.left-nav p {
+    display: inline;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.service p {
+    display: inline;
+    color: gray;
+    margin-top: 10px;
+}
+
+.service a {
+    color: blue;
+    padding: 0px 10px;
+}
+
+.service a:hover {
+    color: rgb(106, 162, 247);
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.service {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.prime {
+    margin-top: 40px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+}
