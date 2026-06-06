@@ -9,8 +9,15 @@ body {
     color: white;
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
     padding: 0px 25px;
+    height: auto;
 
 }
 
@@ -22,17 +29,27 @@ nav {
 a {
     text-decoration: none;
     color: white;
-    padding: 0px 10px;
-    height: 40px;
-    line-height: 40px;
+}
+
+a:hover {
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
-    padding: 5px;
     border-radius: 5px;
-    height: 40px;
-    line-height: 40px;
+    color: white;
 }
+
+.fb1-icon {
+    fill: #ffffff !important;
+}
+
 
 .movies {
     padding: 10px 25px;
@@ -53,10 +70,15 @@ a {
     border-radius: 10px;
 }
 
+.drama {
+    margin-right: 20px;
+}
+
 .see {
     display: flex;
     padding: 0px 25px;
     line-height: 50px;
+    margin-top: 20px;
 }
 
 button {
@@ -70,8 +92,23 @@ button {
 }
 
 .navbar {
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 2px 1px rgba(255, 255, 255, 0.1);
+
     display: flex;
     justify-content: space-between;
+
 }
 
 .left-nav {
@@ -80,6 +117,9 @@ button {
 
 .left-nav p {
     display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-nav {
@@ -89,12 +129,15 @@ button {
 .service p {
     display: inline;
     color: gray;
-    margin-top: 10px;
 }
 
 .service a {
     color: blue;
     padding: 0px 10px;
+}
+
+svg {
+    color: white;
 }
 
 .service a:hover {
