@@ -50,6 +50,99 @@ a:hover {
     fill: #ffffff !important;
 }
 
+#en:hover .language {
+    display: block;
+    color: white;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 2px 1px rgba(255, 255, 255, 0.1);
+
+}
+
+#sign:hover .sign {
+    display: block;
+    color: white;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 2px 1px rgba(255, 255, 255, 0.1);
+}
+
+#grid-link:hover .grid {
+    display: block;
+    color: white;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 2px 1px rgba(255, 255, 255, 0.1);
+}
+
+.language {
+    padding: 10px;
+    width: fit-content;
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2000;
+    top: 80px;
+    left: 60%;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.grid {
+    padding: 10px;
+    width: fit-content;
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2000;
+    top: 80px;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.sign {
+    padding: 10px;
+    width: fit-content;
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2000;
+    top: 80px;
+    left: 80%;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+.grey {
+    color: rgb(145, 143, 143);
+}
+
+td {
+    padding: 10px 20px;
+}
 
 .movies {
     padding: 10px 25px;
